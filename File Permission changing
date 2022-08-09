@@ -1,0 +1,23 @@
+[11:57:19][Dip-Notebook]:~/Documents/Shell work$ touch test
+[11:57:25][Dip-Notebook]:~/Documents/Shell work$ ls -l
+total 32
+-rw-rw-r-- 1 linux-notebook linux-notebook 29162 Jul  9 09:41 'Shell Scripting notes.odt'
+-rw-rw-r-- 1 linux-notebook linux-notebook     0 Jul 10 11:57  test
+[11:57:32][Dip-Notebook]:~/Documents/Shell work$ chmod 777 test
+[11:57:48][Dip-Notebook]:~/Documents/Shell work$ ls -l
+total 32
+-rw-rw-r-- 1 linux-notebook linux-notebook 29162 Jul  9 09:41 'Shell Scripting notes.odt'
+-rwxrwxrwx 1 linux-notebook linux-notebook     0 Jul 10 11:57  test
+[11:57:52][Dip-Notebook]:~/Documents/Shell work$ chmod 244 test
+[11:58:07][Dip-Notebook]:~/Documents/Shell work$ ls -l
+total 32
+-rw-rw-r-- 1 linux-notebook linux-notebook 29162 Jul  9 09:41 'Shell Scripting notes.odt'
+--w-r--r-- 1 linux-notebook linux-notebook     0 Jul 10 11:57  test
+[11:58:11][Dip-Notebook]:~/Documents/Shell work$ chmod 644 test
+[11:58:33][Dip-Notebook]:~/Documents/Shell work$ ls -l
+total 32
+-rw-rw-r-- 1 linux-notebook linux-notebook 29162 Jul  9 09:41 'Shell Scripting notes.odt'
+-rw-r--r-- 1 linux-notebook linux-notebook     0 Jul 10 11:57  test
+[11:58:37][Dip-Notebook]:~/Documents/Shell work$ 
+
+

@@ -1,0 +1,70 @@
+[12:21:34][Dip-Notebook]:~/Documents/Shell work$ grep pehla pehla-pyar-lyrics
+[12:22:47][Dip-Notebook]:~/Documents/Shell work$ grep pehla -i  pehla-pyar-lyrics
+Tu Pehla Pehla Pyar Hai Mera
+Tu Pehla Pehla Pyar Hai Mera
+Tu Pehla Pehla Pyaar Hai Mera
+Tu Pehla Pehla Pyaar Hai Mera Haan
+Pehla Pehla Pyar Hai Mera
+Tu Pehla Pehla Pyar Hai Mera
+Tu Pehla Pehla Pyaar Hai Mera
+Pehla Pehla Pyaar Hai Mera
+[12:23:03][Dip-Notebook]:~/Documents/Shell work$ grep pehla -i -n  pehla-pyar-lyrics
+20:Tu Pehla Pehla Pyar Hai Mera
+21:Tu Pehla Pehla Pyar Hai Mera
+22:Tu Pehla Pehla Pyaar Hai Mera
+23:Tu Pehla Pehla Pyaar Hai Mera Haan
+42:Pehla Pehla Pyar Hai Mera
+43:Tu Pehla Pehla Pyar Hai Mera
+44:Tu Pehla Pehla Pyaar Hai Mera
+45:Pehla Pehla Pyaar Hai Mera
+[12:23:17][Dip-Notebook]:~/Documents/Shell work$ grep pehla -i -n -c pehla-pyar-lyrics
+8
+[12:23:43][Dip-Notebook]:~/Documents/Shell work$ grep pehla -i -n -c -v pehla-pyar-lyrics
+45
+[12:24:01][Dip-Notebook]:~/Documents/Shell work$ grep pehla -i -v pehla-pyar-lyrics
+Ha Ha Ha Haaa
+
+Baatein Zaruri Hain
+Tera Milna Bhi Zaruri
+Maine Mita Deni
+Ye Jo Teri Meri Doori
+
+Ha Ha Ha Haaa
+
+Hmmm Baatein Zaruri Hain
+Tera Milna Bhi Zaruri
+Maine Mita Deni
+Ye Jo Teri Meri Doori
+
+Jhuthi Hai Wo Raahe Saari Duniya Ki
+Ishq Jaha Naa Chale
+Tera Hona Mera Hona Kya Hona
+Agar Na Dono Mile
+
+
+Ha Ha Ha Haaa
+
+Wo Shehar Wade Honge Boriyat Bhare
+Rehta Nahi Jinme Tu Sang Mere
+Khabar Tujhe Bhi Hai Ye
+Raunake Sabhi Hoti Tere Hone Se
+Tere Bina Tanha Koyi Kya Kare
+
+Aise Sabhi Sheharo Pe Mujhko
+Taras Hai Aata Bada Haan
+Tere Liye Main Na Jaha Khada Ooo
+
+Milo Ka Ho Saalo Ka Ho Jaaye Wo
+Safar Ki Parwah Nahi
+Tu Hai Jaha Maine Waha Hona Hai
+Pahuch Hai Jaana Wahi
+
+
+Jeete Jee To Jeetega Na
+Ye Fansla Hai Pata
+Saanse Chale Teri Taraf
+Jaise Chale Raasta
+Mera Hai Tu, Tu Hai Khalish
+Ya Hai Khushi Ya Khata
+Tere Siva Mera Jaha Se Na Koyi Wasta
+

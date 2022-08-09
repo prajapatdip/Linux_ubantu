@@ -1,0 +1,18 @@
+[15:12:20][Dip-Notebook]:~/Documents/Shell work$ uname ; date ; echo dip
+Linux
+Saturday 16 July 2022 03:12:42 PM IST
+dip
+[15:12:42][Dip-Notebook]:~/Documents/Shell work$ grep -i pehla pehla-pyar-lyrics > pattern && echo "The task was completed."
+The task was completed.
+[15:14:23][Dip-Notebook]:~/Documents/Shell work$ cat pattern
+Tu Pehla Pehla Pyar Hai Mera
+Tu Pehla Pehla Pyar Hai Mera
+Tu Pehla Pehla Pyaar Hai Mera
+Tu Pehla Pehla Pyaar Hai Mera Haan
+Pehla Pehla Pyar Hai Mera
+Tu Pehla Pehla Pyar Hai Mera
+Tu Pehla Pehla Pyaar Hai Mera
+Pehla Pehla Pyaar Hai Mera
+[15:14:35][Dip-Notebook]:~/Documents/Shell work$ 
+
+

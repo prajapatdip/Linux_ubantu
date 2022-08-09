@@ -1,0 +1,13 @@
+[14:34:59][Dip-Notebook]:~/Documents/Shell work$ set Shell scripting is good!
+[14:36:35][Dip-Notebook]:~/Documents/Shell work$ echo $1
+Shell
+[14:36:39][Dip-Notebook]:~/Documents/Shell work$ echo $2
+scripting
+[14:36:44][Dip-Notebook]:~/Documents/Shell work$ echo $3
+is
+[14:36:47][Dip-Notebook]:~/Documents/Shell work$ echo $4
+good!
+[14:36:50][Dip-Notebook]:~/Documents/Shell work$ set Hii I am Dip Prajapat
+[14:37:06][Dip-Notebook]:~/Documents/Shell work$ echo $*
+Hii I am Dip Prajapat
+
